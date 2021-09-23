@@ -2,7 +2,7 @@ import './App.css';
 
 import { useState, useEffect } from 'react';
 
-import Characters from './componentes/Characters/inde';
+import Characters from './componentes/Characters';
 
 
 function App() {
@@ -16,7 +16,6 @@ function App() {
     .catch(((err)=>console.log(err)))
   },[])
 
-  console.log(caracterList)
   return (
     <div className="App">
       <header className="App-header">
